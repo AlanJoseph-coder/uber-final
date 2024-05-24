@@ -1,0 +1,174 @@
+@font-face {
+    font-family: uber-move-bold;
+    src: url(UberMoveBold.otf);
+  }
+
+  @font-face {
+    font-family: uber-move-medium;
+    src: url(UberMoveMedium.otf);
+  }
+
+@media only screen and (max-width: 430px) {
+
+  }
+
+  *{
+    font-family: uber-move-bold;
+    margin: 0;
+  }
+
+  
+nav{
+    background-color: black;
+    gap: 30px;
+}
+
+nav a{
+    color: white;
+    font-size: small;
+}
+
+nav .btn{
+    padding: auto 40px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.pg-1{
+    background-color: black;
+    color: white;
+}
+
+.outer{
+    padding:0 5%;
+    background-color: black;
+    color: white;
+}
+
+/* .outer-most{
+    margin: 0;
+    background-color: black;
+} */
+
+.home-head{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-head h1{
+    font-size: 55px;
+    font-weight: 900;
+    width: 90%;
+}
+
+.home-head input{
+    width: 75%;
+}
+
+.home-head button{
+    padding: 0.8em 1em;
+    width: fit-content;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+
+
+.sec-pg-note{
+    padding: 0 5%;
+}
+
+.sec-pg-note button{
+    color: white;
+    background-color: black;
+}
+
+.third-head button{
+    color: white;
+    background-color: black;
+}
+
+
+
+.outer-2{
+    padding:0 5%;
+}
+
+
+.drive-pg h1{
+    font-size: 40px;
+}
+
+.qr-section{
+    padding: 1% 3%;
+    background-color: #F6F5F2;
+}
+
+.qr-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-block{
+    background-color: white;
+    padding: 2rem;
+}
+
+.qr-block img{
+    margin-right: 2%;
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+li{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: small;
+    margin-bottom: 2%;
+}
+
+  .footer{
+    background-color: black;
+    color: white;
+    padding: 5rem 2rem;
+  }
+
+  .footer-head{
+    font-size: medium;
+    margin-bottom: 3%;
+  }
+
+  .footer h3,p{
+    padding:0 2rem;
+    font-family: uber-move-medium;
+  }
+
+  .to-invert{
+    filter: invert(1);
+  }
+
+.ro1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials{
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-loc{
+    display: flex;
+
+}
+
